@@ -8,9 +8,16 @@ We guarantee, that the given sequence contain >= 0 integers inside.
 
 паенг  7еаа вк 7е
 т9рнгрпмилип7меа6м
-тшщои8лн
+тшщои8лн//[[/'klo/
 """
 def _check_window(x: int, y: int, z: int) -> bool:
+    """
+    CЧ  
+    :param x:
+    :param y:
+    :param z:
+    :return:
+    """
     return (x + y) == z
 data_to_process = [0, 1, 1, 2, 3, 5]
 
@@ -28,6 +35,7 @@ while data_to_process:
         break
     a, b, c = b, c, data_to_process[2]
 print("It's a fib sequence!")
+
 
 
 
