@@ -13,6 +13,12 @@ from typing import List
 
 
 def findmaximalsubarraysum(nums: List[int], k: int) -> int:
+    """
+
+    :param nums: array with data
+    :param k: number of selected data
+    :return: 18
+    """
 
     result = 0
     while k > 0:

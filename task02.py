@@ -4,19 +4,13 @@ Given a cell with "it's a fib sequence" from slideshow,
     returns if the given sequence is a Fibonacci sequence
 
 We guarantee, that the given sequence contain >= 0 integers inside.
-
-
-паенг  7еаа вк 7е
-т9рнгрпмилип7меа6м
-тшщои8лн//[[/'klo/
 """
 def _check_window(x: int, y: int, z: int) -> bool:
     """
-    CЧ  
-    :param x:
-    :param y:
-    :param z:
-    :return:
+    :param x:array element
+    :param y:array element
+    :param z:array element
+    :return: true
     """
     return (x + y) == z
 data_to_process = [0, 1, 1, 2, 3, 5]
