@@ -15,13 +15,14 @@ with open("some_file.txt") as fi:
 """
 from typing import Tuple
 
-def find_maximum_and_minimum(file_name: str) -> Tuple[int, int]:
-    '''
+def find_maximum_and_minimum(file1: str) -> Tuple[int, int]:
 
-    :param file_name: file with data
-    :return: -32 4535
-    '''
-    with open ('Mememto.txt') as fi:
-        for line in fi:
-             data = [int(x) for x in line.split(" ")]
-             return [min(data), max(data)]
+    lines = file1.readlines()
+    listfile = list()
+    for line in lines:
+        data = [int(x) for x in line.split(" ")]
+        listfile.append(data)
+    return min(listfile), max(listfile)
+
+file1 = open("Mememto.txt", "r")
+find_maximum_and_minimum(file1)
