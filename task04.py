@@ -25,6 +25,7 @@ def Kortej(A: List[int],B: List[int],C: List[int],D: List[int],):
                 for l in D:
                     if i + j + k + l == 0:
                         count += 1
+                        '''через лист ебани'''
     return count
 A = [-48, -1, 64]
 B = [0, -34, 48]
